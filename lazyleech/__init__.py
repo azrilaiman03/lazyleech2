@@ -44,14 +44,14 @@ LICHER_PARSE_EPISODE = LICHER_PARSE_EPISODE and LICHER_PARSE_EPISODE != '0'
 
 PROGRESS_UPDATE_DELAY = int(os.environ.get('PROGRESS_UPDATE_DELAY', 10))
 MAGNET_TIMEOUT = int(os.environ.get('LEECH_TIMEOUT', 60))
-LEECH_TIMEOUT = int(os.environ.get('LEECH_TIMEOUT', 300))
+LEECH_TIMEOUT = int(os.environ.get('LEECH_TIMEOUT', 60))
 ARIA2_SECRET = os.environ.get('ARIA2_SECRET', '')
 IGNORE_PADDING_FILE = os.environ.get('IGNORE_PADDING_FILE', '1')
 IGNORE_PADDING_FILE = IGNORE_PADDING_FILE and IGNORE_PADDING_FILE != '0'
 
 SOURCE_MESSAGE = '''
-<a href="https://github.com/Lazy-Leecher/lazyleech">lazyleech - Telegram bot primarily to leech from torrents and upload to Telegram</a>
-Copyright (c) 2021 lazyleech developers &lt;theblankx protonmail com, meliodas_bot protonmail com&gt;
+<a href="https://github.com/aimanazril/lazyleech">lazyleech - Telegram bot primarily to leech from torrents and upload to Telegram</a>
+Copyright (c) 2021 lazyleech developers azrilaiman;
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
